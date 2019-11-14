@@ -43,7 +43,7 @@ echo " "
 echo " "
 
 echo "Now deleting $i all spam comments.."
-wp comment delete  --allow-root $(wp comment list --status=spam --format=ids --allow-root)
+wp comment delete --allow-root $(wp comment list --status=spam --format=ids --allow-root)
 echo " "
 echo " "
 
