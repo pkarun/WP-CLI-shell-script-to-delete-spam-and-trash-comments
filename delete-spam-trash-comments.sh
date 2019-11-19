@@ -7,6 +7,9 @@
 # cron job entry to Delete all Spam and Trash comments - Daily at 2:00am
 # 00 02 * * * /bin/bash /var/www/path-to-script/delete-spam-trash-comments.sh > /var/log/delete-spam-trash-comments.log
 
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
 
 WPSITES=(
 domain1.com
