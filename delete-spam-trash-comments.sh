@@ -20,6 +20,8 @@ domain4.org
 
 WPPATH=/var/www/html/
 
+echo "Last run on:"
+date
 echo " "
 echo "Script to Delete all SPAM and TRASH Comments"
 echo " "
